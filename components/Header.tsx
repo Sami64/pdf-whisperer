@@ -1,9 +1,12 @@
 import { SignedIn, UserButton } from '@clerk/nextjs'
+import { currentUser } from '@clerk/nextjs/server'
 import { FilePlus2 } from 'lucide-react'
 import Link from 'next/link'
 import { Button } from './ui/button'
 
 const Header = () => {
+	
+
 	return (
 		<div className="flex justify-between bg-white shadow-sm p-5 border-b">
 			<Link
